@@ -2,11 +2,11 @@
   "name": "bloommenu-backend",
   "version": "1.0.0",
   "description": "Backend API (Auth + comptes + commandes) pour Bloommenu.fr — Node.js/Express + Firebase",
-  "main": "src/server.js",
+  "main": "server.js",
   "type": "commonjs",
   "scripts": {
-    "start": "node src/server.js",
-    "dev": "nodemon src/server.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
